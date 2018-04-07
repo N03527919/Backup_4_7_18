@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href='/static/style.css' />
+    <title>{{ title }}</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>{{ title }}</h1>
+  </body>
+
+  <form action = "http://192.168.1.164:8081/result" method = "POST">
+    Enter starting date: <br>
+    <input type="date" name="date[]" min="2017-03-01" max="2017-04-01"><br>
+    Enter ending date: <br>
+    <input type="date" name="date[]" min="2017-03-01" max="2017-04-01"><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <table style="width:50%">
+    <tr>
+      <th>Date and Time</th>
+      <th>Temperature (C)</th>
+      <th>Temperature (F)</th>
+    </tr>
+    <tr>
+      <td>03/24/17 10:05:02 EDT</td>
+      <td>22.3</td>
+      <td>72.2343</td>
+    </tr>  
+  
+  </table>
+
+</html>

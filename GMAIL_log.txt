@@ -1,0 +1,6 @@
+
+Run date: 02/07/18. Run time: 16:31:24
+Success at: 16:31:25
+Run date: 02/07/18. Run time: 17:15:43
+Success at: 17:15:45
+Run date: 02/07/18

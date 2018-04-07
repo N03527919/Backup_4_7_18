@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <body>
+    <table border = 1>
+      <tr>
+        <th>Date and Time</th>
+        <th>Temperature (C)</th>
+        <th>Temperature (F)</th>
+      </tr>
+      <tr>
+        <td>    
+
+
+
+      {% for key, value in result.iteritems() %}
+      
+        <tr>
+          <th> {{ key }} </th>
+          <td> {{ value }} </td>
+        </tr>
+      {% endfor %}
+    </table>
+    <h1>{{ output }}</h1>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Script started on Fri 31 Mar 2017 02:04:19 PM EDT
+]0;pi@raspberrypi: ~/pi-timolo/project[01;32mpi@raspberrypi[00m:[01;34m~/pi-timolo/project $[00m sqlite3
+SQLite version 3.8.7.1 2014-10-29 13:59:56
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> CREATE TABLE Data_001(date text, time text, tempF double);
+sqlite> .save Data_001.db
+sqlite> .exit
+
+Script done on Fri 31 Mar 2017 02:05:51 PM EDT
